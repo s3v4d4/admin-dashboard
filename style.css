@@ -39,13 +39,13 @@ body {
 }
 
 .header > img {
-    max-height: var(--icon_small);
-    max-width: var(--icon_small);
+    height: var(--icon_small);
+    width: var(--icon_small);
 }
 
 .header .logo {
-    max-height: var(--icon_big);
-    max-width: var(--icon_big);
+    height: var(--icon_big);
+    width: var(--icon_big);
 }
 
 
@@ -113,7 +113,7 @@ body {
     flex-direction: column;
 }
 
-.main div > img {
+.main div a > img {
     object-fit: contain;
     max-height: 100%;
     max-width: 100%;
